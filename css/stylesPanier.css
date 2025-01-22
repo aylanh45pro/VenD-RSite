@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@media (min-width: 640px) {
+  h2,
+  h4,
+  p,
+  .window #p1,
+  .window #p2,
+  #wA,
+  #wZ,
+  button,
+  label {
+    color: #323762;
+  }
+
+  .navbar {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  ul {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: -webkit-fill-available;
+    color: #323762;
+  }
+
+  h4 {
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+
+  .flex-container {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 800px;
+    flex-wrap: wrap;
+    column-gap: 3%;
+    row-gap: 3%;
+    padding-top: 0%;
+  }
+
+  .window #p1 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+  }
+
+  .window #p2 {
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+  }
+
+  #wZ > p:nth-child(4) {
+    text-align: center;
+  }
+
+  #wA > div:nth-child(1) {
+    margin-top: 10px;
+  }
+
+  .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 240px;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+
+  .img > img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #69bcea;
+    border-radius: 5px;
+    border: solid #8cb4fc;
+    color: #323762;
+  }
+
+  button:hover {
+    background-color: white;
+    border: solid #69bcea;
+  }
+
+  #wA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    width: 45% !important;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border: 3px solid #69bce9;
+    border-radius: 15px;
+    background-color: white;
+    color: #000;
+  }
+
+  #wZ {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 45% !important;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border: 3px solid #69bce9;
+    border-radius: 15px;
+    background-color: white;
+    color: #000;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  #wZ button {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 3%;
+  }
+
+  #wZ > label {
+    margin-top: 10px;
+    margin-bottom: 2%;
+  }
+
+  #wZ > div > img {
+    display: flex;
+    height: 38px;
+    width: 38px;
+    margin-left: auto;
+    margin-right: 2%;
+  }
+
+  .total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95% !important;
+    height: 40px;
+  }
+
+  .gauche {
+    display: flex;
+    text-align: left;
+  }
+
+  .droite {
+    display: flex;
+    text-align: right;
+    top: -40px;
+  }
+
+  #wZ > div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #wZ p {
+    margin-left: 2%;
+  }
+
+  #wZ label {
+    margin-left: 2%;
+  }
+
+  #wZ input {
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 30px;
+  }
+
+  #wA > button {
+    margin-bottom: 10px;
+  }
+
+  main {
+    height: auto;
+  }
+
+  footer {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+  }
+}
+
+@media (max-width: 640px) {
+  h2,
+  h4,
+  p,
+  .window #p1,
+  .window #p2,
+  #wA,
+  #wZ,
+  button,
+  label {
+    color: #333333;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .flex-container {
+    margin: 0 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    row-gap: 10px;
+    column-gap: 0;
+    padding-top: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+
+  #wZ > p:nth-child(4) {
+    text-align: center;
+  }
+
+  #wZ p {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .gauche {
+    float: left;
+  }
+
+  .droite {
+    float: right;
+  }
+
+  .window #p1,
+  .window #p2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  h4 {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  #wA > div:nth-child(1) {
+    margin-top: 5px;
+  }
+
+  .img {
+    max-width: 180px;
+    margin: 0 auto;
+  }
+
+  .img > img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  button {
+    width: 100%;
+    padding: 8px;
+    background-color: #69bcea;
+    border-radius: 5px;
+    border: solid #323762;
+  }
+
+  button:hover {
+    background-color: white;
+    border: solid #69bcea;
+  }
+
+  #wA {
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  #wZ {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: min-content;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+
+  #wZ > label {
+    margin-top: 5px;
+  }
+
+  #wZ > div > img {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: 2%;
+    top: -40px;
+  }
+
+  #wZ > div {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+  }
+
+  #wZ > div > p {
+    width: 80%;
+    margin-right: 0;
+  }
+
+  #wA > button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+  }
+
+  main {
+    height: auto;
+    padding: 10px;
+  }
+
+  #wZ > label {
+    margin-top: 10px;
+    margin-bottom: 2%;
+  }
+
+  #wZ input {
+    height: 30px;
+  }
+
+  footer {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}
